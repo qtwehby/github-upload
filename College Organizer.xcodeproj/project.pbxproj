@@ -13,6 +13,8 @@
 		31E0A468278484A5001E9EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E0A466278484A5001E9EB7 /* Main.storyboard */; };
 		31E0A46A278484A7001E9EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E0A469278484A7001E9EB7 /* Assets.xcassets */; };
 		31E0A46D278484A7001E9EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E0A46B278484A7001E9EB7 /* LaunchScreen.storyboard */; };
+		31E0A475278484DA001E9EB7 /* AddCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0A474278484DA001E9EB7 /* AddCollegeViewController.swift */; };
+		31E0A47727871F3B001E9EB7 /* DisplayCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0A47627871F3B001E9EB7 /* DisplayCollegeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		31E0A469278484A7001E9EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31E0A46C278484A7001E9EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31E0A46E278484A7001E9EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E0A474278484DA001E9EB7 /* AddCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCollegeViewController.swift; sourceTree = "<group>"; };
+		31E0A47627871F3B001E9EB7 /* DisplayCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCollegeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		31E0A45F278484A5001E9EB7 /* College Organizer */ = {
 			isa = PBXGroup;
 			children = (
+				31E0A464278484A5001E9EB7 /* ViewController.swift */,
+				31E0A474278484DA001E9EB7 /* AddCollegeViewController.swift */,
+				31E0A47627871F3B001E9EB7 /* DisplayCollegeViewController.swift */,
+				31E0A466278484A5001E9EB7 /* Main.storyboard */,
 				31E0A460278484A5001E9EB7 /* AppDelegate.swift */,
 				31E0A462278484A5001E9EB7 /* SceneDelegate.swift */,
-				31E0A464278484A5001E9EB7 /* ViewController.swift */,
-				31E0A466278484A5001E9EB7 /* Main.storyboard */,
 				31E0A469278484A7001E9EB7 /* Assets.xcassets */,
 				31E0A46B278484A7001E9EB7 /* LaunchScreen.storyboard */,
 				31E0A46E278484A7001E9EB7 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E0A475278484DA001E9EB7 /* AddCollegeViewController.swift in Sources */,
 				31E0A465278484A5001E9EB7 /* ViewController.swift in Sources */,
 				31E0A461278484A5001E9EB7 /* AppDelegate.swift in Sources */,
+				31E0A47727871F3B001E9EB7 /* DisplayCollegeViewController.swift in Sources */,
 				31E0A463278484A5001E9EB7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
